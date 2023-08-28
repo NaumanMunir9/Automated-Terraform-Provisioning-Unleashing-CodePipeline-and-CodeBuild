@@ -1,5 +1,5 @@
 environment                            = "staging"
-vpc_name                               = "myvpc"
+vpc_name                               = "Custom_vpc_staging"
 vpc_cidr_block                         = "10.16.0.0/16"
 vpc_availability_zones                 = ["us-east-1a", "us-east-1b", "us-east-1c"]
 vpc_public_subnets                     = ["10.16.101.0/24", "10.16.102.0/24", "10.16.103.0/24"]

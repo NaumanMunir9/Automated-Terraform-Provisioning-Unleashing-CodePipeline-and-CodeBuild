@@ -1,4 +1,4 @@
-resource "aws_autoscaling_schedule" "increase_capacity_7am" {
+resource "aws_autoscaling_schedule" "increase_capacity_9am" {
   scheduled_action_name  = "increase-capacity-7am"
   min_size               = 2
   max_size               = 10
