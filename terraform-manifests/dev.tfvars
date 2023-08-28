@@ -1,0 +1,14 @@
+environment                            = "dev"
+vpc_name                               = "myvpc"
+vpc_cidr_block                         = "10.16.0.0/16"
+vpc_availability_zones                 = ["us-east-1a", "us-east-1b", "us-east-1c"]
+vpc_public_subnets                     = ["10.16.101.0/24", "10.16.102.0/24", "10.16.103.0/24"]
+vpc_private_subnets                    = ["10.16.1.0/24", "10.16.2.0/24", "10.16.3.0/24"]
+vpc_database_subnets                   = ["10.16.151.0/24", "10.16.152.0/24", "10.16.153.0/24"]
+vpc_create_database_subnet_group       = true
+vpc_create_database_subnet_route_table = true
+vpc_enable_nat_gateway                 = true
+vpc_single_nat_gateway                 = true
+instance_type                          = "t3.micro"
+instance_keypair                       = "tf-key"
+private_instance_count                 = 2
